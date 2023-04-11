@@ -41,21 +41,21 @@ const Rick = () => {
     const residents = rickLocation.residents?.slice(firstIndex,
     firstIndex + perPage)
 
-    return (
-        <div >
+    return (        
+        <div className="rickandmorty-card">
             <input type="number"  min={1} max={126} value={
             searchLoc} onChange={(e) => setSearchLoc(e.target.
             value)} placeholder={"Ingrsa Id (1 - 126 )"} />
             <button onClick={search}>Buscar</button>
-            <div className="rickandmorty-card">
-                <Location rick={rickLocation} />
-                <Pag page={page} setPage={setPage} quantyPage=
-                {quantyPage} />
-                {residents?.map((rick) => (
-                    <Residents url={rick} key={rick} />
-                ))             
-                }
-            </div>
+            
+            <Location rick={rickLocation} />
+            <Pag page={page} setPage={setPage} quantyPage=
+            {quantyPage} />
+            {residents?.map((rick) => (
+             <Residents url={rick} key={rick} />
+            ))             
+           }
+            
           
         </div>
     );

@@ -36,6 +36,23 @@ body {
  
 }
 
+input {
+  border: 1px solid red;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(14, 13, 13);
+  
+}
+
+button{
+  border: 1px solid red;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(14, 13, 13);  
+}
+
 .rickandmorty-card {
   width: 100%;
   display: grid;
