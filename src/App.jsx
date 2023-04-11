@@ -1,6 +1,6 @@
 
 import './App.css'
-import Rickandmorty from './components/RickandMorty'
+import RickandMorty from './components/RickandMorty'
 
 
 function App() {

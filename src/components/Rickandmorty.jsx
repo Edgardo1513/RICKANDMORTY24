@@ -7,7 +7,7 @@ import Pag from "./Pag";
 
 
 
-const Rickandmorty = () => {
+const RickandMorty = () => {
 
     const [rickLocation, setRickLocation] = useState ({})
 
@@ -61,4 +61,4 @@ const Rickandmorty = () => {
     );
 };
 
-export default Rickandmorty;
+export default RickandMorty;
