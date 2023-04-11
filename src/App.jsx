@@ -11,7 +11,7 @@ function App() {
     
        <img src="/banner.svg" alt="" />  
        <div className='conteiner'>    
-          <Rickandmorty />  
+          <Rick />  
        </div>     
     </div>
   )
